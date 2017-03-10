@@ -1,0 +1,221 @@
+2017-03-10 10:16:00 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: Fangjia)
+2017-03-10 10:16:00 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Fangjia.spiders', 'CONCURRENT_REQUESTS': 10, 'SPIDER_MODULES': ['Fangjia.spiders'], 'BOT_NAME': 'Fangjia', 'COOKIES_ENABLED': False, 'LOG_FILE': 'scrapy.log'}
+2017-03-10 10:16:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-10 10:16:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-10 10:16:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'Fangjia.middlewares.ProxyMiddleware',
+ 'Fangjia.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-10 10:16:00 [scrapy.middleware] INFO: Enabled item pipelines:
+['Fangjia.pipelines.FangjiaPipeline']
+2017-03-10 10:16:00 [scrapy.core.engine] INFO: Spider opened
+2017-03-10 10:16:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-10 10:16:00 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-03-10 10:16:00 [scrapy.proxies] DEBUG: Proxy:http://124.88.67.24:843
+2017-03-10 10:16:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/> (referer: None)
+2017-03-10 10:16:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d2> (referer: http://sh.lianjia.com/xiaoqu/)
+2017-03-10 10:16:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d3> (referer: http://sh.lianjia.com/xiaoqu/d2)
+2017-03-10 10:16:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d4> (referer: http://sh.lianjia.com/xiaoqu/d3)
+2017-03-10 10:16:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d5> (referer: http://sh.lianjia.com/xiaoqu/d4)
+2017-03-10 10:16:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d6> (referer: http://sh.lianjia.com/xiaoqu/d5)
+2017-03-10 10:16:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d7> (referer: http://sh.lianjia.com/xiaoqu/d6)
+2017-03-10 10:16:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d8> (referer: http://sh.lianjia.com/xiaoqu/d7)
+2017-03-10 10:16:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d9> (referer: http://sh.lianjia.com/xiaoqu/d8)
+2017-03-10 10:16:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d10> (referer: http://sh.lianjia.com/xiaoqu/d9)
+2017-03-10 10:16:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d11> (referer: http://sh.lianjia.com/xiaoqu/d10)
+2017-03-10 10:16:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d12> (referer: http://sh.lianjia.com/xiaoqu/d11)
+2017-03-10 10:16:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d13> (referer: http://sh.lianjia.com/xiaoqu/d12)
+2017-03-10 10:16:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d14> (referer: http://sh.lianjia.com/xiaoqu/d13)
+2017-03-10 10:16:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d15> (referer: http://sh.lianjia.com/xiaoqu/d14)
+2017-03-10 10:16:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d16> (referer: http://sh.lianjia.com/xiaoqu/d15)
+2017-03-10 10:16:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d17> (referer: http://sh.lianjia.com/xiaoqu/d16)
+2017-03-10 10:16:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d18> (referer: http://sh.lianjia.com/xiaoqu/d17)
+2017-03-10 10:16:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d19> (referer: http://sh.lianjia.com/xiaoqu/d18)
+2017-03-10 10:16:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d20> (referer: http://sh.lianjia.com/xiaoqu/d19)
+2017-03-10 10:16:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d21> (referer: http://sh.lianjia.com/xiaoqu/d20)
+2017-03-10 10:16:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d22> (referer: http://sh.lianjia.com/xiaoqu/d21)
+2017-03-10 10:16:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d23> (referer: http://sh.lianjia.com/xiaoqu/d22)
+2017-03-10 10:16:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d24> (referer: http://sh.lianjia.com/xiaoqu/d23)
+2017-03-10 10:16:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d25> (referer: http://sh.lianjia.com/xiaoqu/d24)
+2017-03-10 10:16:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d26> (referer: http://sh.lianjia.com/xiaoqu/d25)
+2017-03-10 10:16:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d27> (referer: http://sh.lianjia.com/xiaoqu/d26)
+2017-03-10 10:16:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d28> (referer: http://sh.lianjia.com/xiaoqu/d27)
+2017-03-10 10:17:00 [scrapy.extensions.logstats] INFO: Crawled 28 pages (at 28 pages/min), scraped 0 items (at 0 items/min)
+2017-03-10 10:17:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://sh.lianjia.com/xiaoqu/d29> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'BODY' state, still expecting more data to get to 'FINISHED' state.>]
+2017-03-10 10:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d29> (referer: http://sh.lianjia.com/xiaoqu/d28)
+2017-03-10 10:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d30> (referer: http://sh.lianjia.com/xiaoqu/d29)
+2017-03-10 10:17:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d31> (referer: http://sh.lianjia.com/xiaoqu/d30)
+2017-03-10 10:17:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d32> (referer: http://sh.lianjia.com/xiaoqu/d31)
+2017-03-10 10:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d33> (referer: http://sh.lianjia.com/xiaoqu/d32)
+2017-03-10 10:17:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d34> (referer: http://sh.lianjia.com/xiaoqu/d33)
+2017-03-10 10:17:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d35> (referer: http://sh.lianjia.com/xiaoqu/d34)
+2017-03-10 10:17:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d36> (referer: http://sh.lianjia.com/xiaoqu/d35)
+2017-03-10 10:18:00 [scrapy.extensions.logstats] INFO: Crawled 36 pages (at 8 pages/min), scraped 0 items (at 0 items/min)
+2017-03-10 10:18:23 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://sh.lianjia.com/xiaoqu/d37> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'BODY' state, still expecting more data to get to 'FINISHED' state.>]
+2017-03-10 10:18:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d37> (referer: http://sh.lianjia.com/xiaoqu/d36)
+2017-03-10 10:18:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d38> (referer: http://sh.lianjia.com/xiaoqu/d37)
+2017-03-10 10:18:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d39> (referer: http://sh.lianjia.com/xiaoqu/d38)
+2017-03-10 10:18:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d40> (referer: http://sh.lianjia.com/xiaoqu/d39)
+2017-03-10 10:18:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d41> (referer: http://sh.lianjia.com/xiaoqu/d40)
+2017-03-10 10:18:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d42> (referer: http://sh.lianjia.com/xiaoqu/d41)
+2017-03-10 10:18:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d43> (referer: http://sh.lianjia.com/xiaoqu/d42)
+2017-03-10 10:18:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d44> (referer: http://sh.lianjia.com/xiaoqu/d43)
+2017-03-10 10:18:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d45> (referer: http://sh.lianjia.com/xiaoqu/d44)
+2017-03-10 10:18:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d46> (referer: http://sh.lianjia.com/xiaoqu/d45)
+2017-03-10 10:18:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d47> (referer: http://sh.lianjia.com/xiaoqu/d46)
+2017-03-10 10:18:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d48> (referer: http://sh.lianjia.com/xiaoqu/d47)
+2017-03-10 10:18:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d49> (referer: http://sh.lianjia.com/xiaoqu/d48)
+2017-03-10 10:18:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d50> (referer: http://sh.lianjia.com/xiaoqu/d49)
+2017-03-10 10:18:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d51> (referer: http://sh.lianjia.com/xiaoqu/d50)
+2017-03-10 10:18:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d52> (referer: http://sh.lianjia.com/xiaoqu/d51)
+2017-03-10 10:18:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d53> (referer: http://sh.lianjia.com/xiaoqu/d52)
+2017-03-10 10:18:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d54> (referer: http://sh.lianjia.com/xiaoqu/d53)
+2017-03-10 10:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d55> (referer: http://sh.lianjia.com/xiaoqu/d54)
+2017-03-10 10:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d56> (referer: http://sh.lianjia.com/xiaoqu/d55)
+2017-03-10 10:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d57> (referer: http://sh.lianjia.com/xiaoqu/d56)
+2017-03-10 10:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d58> (referer: http://sh.lianjia.com/xiaoqu/d57)
+2017-03-10 10:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d59> (referer: http://sh.lianjia.com/xiaoqu/d58)
+2017-03-10 10:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d60> (referer: http://sh.lianjia.com/xiaoqu/d59)
+2017-03-10 10:18:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d61> (referer: http://sh.lianjia.com/xiaoqu/d60)
+2017-03-10 10:18:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d62> (referer: http://sh.lianjia.com/xiaoqu/d61)
+2017-03-10 10:18:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d63> (referer: http://sh.lianjia.com/xiaoqu/d62)
+2017-03-10 10:19:00 [scrapy.extensions.logstats] INFO: Crawled 63 pages (at 27 pages/min), scraped 0 items (at 0 items/min)
+2017-03-10 10:19:41 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://sh.lianjia.com/xiaoqu/d64> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'BODY' state, still expecting more data to get to 'FINISHED' state.>]
+2017-03-10 10:19:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d64> (referer: http://sh.lianjia.com/xiaoqu/d63)
+2017-03-10 10:19:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d65> (referer: http://sh.lianjia.com/xiaoqu/d64)
+2017-03-10 10:19:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d66> (referer: http://sh.lianjia.com/xiaoqu/d65)
+2017-03-10 10:19:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d67> (referer: http://sh.lianjia.com/xiaoqu/d66)
+2017-03-10 10:19:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d68> (referer: http://sh.lianjia.com/xiaoqu/d67)
+2017-03-10 10:19:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d69> (referer: http://sh.lianjia.com/xiaoqu/d68)
+2017-03-10 10:19:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d70> (referer: http://sh.lianjia.com/xiaoqu/d69)
+2017-03-10 10:19:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d71> (referer: http://sh.lianjia.com/xiaoqu/d70)
+2017-03-10 10:19:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d72> (referer: http://sh.lianjia.com/xiaoqu/d71)
+2017-03-10 10:20:00 [scrapy.extensions.logstats] INFO: Crawled 72 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2017-03-10 10:20:46 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://sh.lianjia.com/xiaoqu/d73> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'BODY' state, still expecting more data to get to 'FINISHED' state.>]
+2017-03-10 10:20:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d73> (referer: http://sh.lianjia.com/xiaoqu/d72)
+2017-03-10 10:20:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d74> (referer: http://sh.lianjia.com/xiaoqu/d73)
+2017-03-10 10:20:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d75> (referer: http://sh.lianjia.com/xiaoqu/d74)
+2017-03-10 10:20:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d76> (referer: http://sh.lianjia.com/xiaoqu/d75)
+2017-03-10 10:20:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d77> (referer: http://sh.lianjia.com/xiaoqu/d76)
+2017-03-10 10:20:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d78> (referer: http://sh.lianjia.com/xiaoqu/d77)
+2017-03-10 10:21:00 [scrapy.extensions.logstats] INFO: Crawled 78 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2017-03-10 10:21:51 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://sh.lianjia.com/xiaoqu/d79> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'BODY' state, still expecting more data to get to 'FINISHED' state.>]
+2017-03-10 10:21:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d79> (referer: http://sh.lianjia.com/xiaoqu/d78)
+2017-03-10 10:21:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d80> (referer: http://sh.lianjia.com/xiaoqu/d79)
+2017-03-10 10:21:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d81> (referer: http://sh.lianjia.com/xiaoqu/d80)
+2017-03-10 10:21:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d82> (referer: http://sh.lianjia.com/xiaoqu/d81)
+2017-03-10 10:21:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d83> (referer: http://sh.lianjia.com/xiaoqu/d82)
+2017-03-10 10:21:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d84> (referer: http://sh.lianjia.com/xiaoqu/d83)
+2017-03-10 10:21:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d85> (referer: http://sh.lianjia.com/xiaoqu/d84)
+2017-03-10 10:21:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d86> (referer: http://sh.lianjia.com/xiaoqu/d85)
+2017-03-10 10:21:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d87> (referer: http://sh.lianjia.com/xiaoqu/d86)
+2017-03-10 10:21:56 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET http://sh.lianjia.com/xiaoqu/5011000016227.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d88> (referer: http://sh.lianjia.com/xiaoqu/d87)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000016227.html> (referer: http://sh.lianjia.com/xiaoqu/d87)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000010781.html> (referer: http://sh.lianjia.com/xiaoqu/d87)
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000016227.html>
+None
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000010781.html>
+None
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011102205777.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000019435.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000003822.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011102206332.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5015188083640614.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d89> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011102208914.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011102205777.html>
+None
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000016600.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000019435.html>
+None
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000003822.html>
+None
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011102206332.html>
+None
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5015188083640614.html>
+None
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011102208914.html>
+None
+2017-03-10 10:21:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000004268.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000016600.html>
+None
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000002113.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000002190.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000003265.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000003091.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000000142.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000004268.html>
+None
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000002113.html>
+None
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000002190.html>
+None
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000003265.html>
+None
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000003091.html>
+None
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000000142.html>
+None
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000008759.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/509821540057233.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/5011000007010.html> (referer: http://sh.lianjia.com/xiaoqu/d88)
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d90> (referer: http://sh.lianjia.com/xiaoqu/d89)
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000008759.html>
+None
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/509821540057233.html>
+None
+2017-03-10 10:21:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sh.lianjia.com/xiaoqu/5011000007010.html>
+None
+2017-03-10 10:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d91> (referer: http://sh.lianjia.com/xiaoqu/d90)
+2017-03-10 10:21:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d92> (referer: http://sh.lianjia.com/xiaoqu/d91)
+2017-03-10 10:21:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d93> (referer: http://sh.lianjia.com/xiaoqu/d92)
+2017-03-10 10:22:00 [scrapy.extensions.logstats] INFO: Crawled 111 pages (at 33 pages/min), scraped 18 items (at 18 items/min)
+2017-03-10 10:22:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d94> (referer: http://sh.lianjia.com/xiaoqu/d93)
+2017-03-10 10:22:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d95> (referer: http://sh.lianjia.com/xiaoqu/d94)
+2017-03-10 10:22:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d96> (referer: http://sh.lianjia.com/xiaoqu/d95)
+2017-03-10 10:22:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d97> (referer: http://sh.lianjia.com/xiaoqu/d96)
+2017-03-10 10:22:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d98> (referer: http://sh.lianjia.com/xiaoqu/d97)
+2017-03-10 10:22:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d99> (referer: http://sh.lianjia.com/xiaoqu/d98)
+2017-03-10 10:22:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sh.lianjia.com/xiaoqu/d100> (referer: http://sh.lianjia.com/xiaoqu/d99)
+2017-03-10 10:22:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-03-10 10:22:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 5,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 5,
+ 'downloader/request_bytes': 32806,
+ 'downloader/request_count': 123,
+ 'downloader/request_method_count/GET': 123,
+ 'downloader/response_bytes': 1445401,
+ 'downloader/response_count': 118,
+ 'downloader/response_status_count/200': 118,
+ 'dupefilter/filtered': 22,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 3, 10, 2, 22, 3, 566758),
+ 'item_scraped_count': 18,
+ 'log_count/DEBUG': 144,
+ 'log_count/INFO': 13,
+ 'request_depth_max': 99,
+ 'response_received_count': 118,
+ 'scheduler/dequeued': 123,
+ 'scheduler/dequeued/memory': 123,
+ 'scheduler/enqueued': 123,
+ 'scheduler/enqueued/memory': 123,
+ 'start_time': datetime.datetime(2017, 3, 10, 2, 16, 0, 261803)}
+2017-03-10 10:22:03 [scrapy.core.engine] INFO: Spider closed (finished)
