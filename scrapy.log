@@ -219,3 +219,15 @@ None
  'scheduler/enqueued/memory': 123,
  'start_time': datetime.datetime(2017, 3, 10, 2, 16, 0, 261803)}
 2017-03-10 10:22:03 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-03-13 15:25:17 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: Fangjia)
+2017-03-13 15:25:17 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Fangjia.spiders', 'FEED_URI': 'data.json', 'CONCURRENT_REQUESTS': 10, 'SPIDER_MODULES': ['Fangjia.spiders'], 'BOT_NAME': 'Fangjia', 'COOKIES_ENABLED': False, 'FEED_FORMAT': 'json', 'LOG_FILE': 'scrapy.log'}
+2017-03-13 15:25:40 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: Fangjia)
+2017-03-13 15:25:40 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Fangjia.spiders', 'CONCURRENT_REQUESTS': 10, 'SPIDER_MODULES': ['Fangjia.spiders'], 'BOT_NAME': 'Fangjia', 'COOKIES_ENABLED': False, 'LOG_FILE': 'scrapy.log'}
+2017-03-13 15:25:54 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: Fangjia)
+2017-03-13 15:25:54 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Fangjia.spiders', 'CONCURRENT_REQUESTS': 10, 'SPIDER_MODULES': ['Fangjia.spiders'], 'BOT_NAME': 'Fangjia', 'COOKIES_ENABLED': False, 'LOG_FILE': 'scrapy.log'}
+2017-03-13 15:25:59 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: Fangjia)
+2017-03-13 15:25:59 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Fangjia.spiders', 'CONCURRENT_REQUESTS': 10, 'SPIDER_MODULES': ['Fangjia.spiders'], 'BOT_NAME': 'Fangjia', 'COOKIES_ENABLED': False, 'LOG_FILE': 'scrapy.log'}
+2017-03-13 15:26:49 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: Fangjia)
+2017-03-13 15:26:49 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Fangjia.spiders', 'CONCURRENT_REQUESTS': 10, 'SPIDER_MODULES': ['Fangjia.spiders'], 'BOT_NAME': 'Fangjia', 'COOKIES_ENABLED': False, 'LOG_FILE': 'scrapy.log'}
+2017-03-15 13:08:45 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: Fangjia)
+2017-03-15 13:08:45 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Fangjia.spiders', 'CONCURRENT_REQUESTS': 10, 'SPIDER_MODULES': ['Fangjia.spiders'], 'BOT_NAME': 'Fangjia', 'COOKIES_ENABLED': False, 'LOG_FILE': 'scrapy.log'}

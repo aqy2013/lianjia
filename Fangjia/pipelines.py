@@ -15,8 +15,7 @@ class FangjiaPipeline(object):
     collection_name = 'price_items'
 
     def __init__(self):
-        self.conn = MySQLdb.connect(
-            user='root', passwd='password', db='test', host='localhost', charset="utf8")
+        self.conn = MySQLdb.connect(user='root', passwd='password', db='test', host='localhost', charset="utf8")
         self.cursor = self.conn.cursor()
 
     def process_item(self, item, spider):
